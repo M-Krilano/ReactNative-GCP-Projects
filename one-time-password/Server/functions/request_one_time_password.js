@@ -20,7 +20,7 @@ module.exports = function(req, res) {
         {
           body: "Your code is " + code,
           to: phone,
-          from: "+17472397624"
+          from: "put_your_number_you_created"
         },
         err => {
           if (err) {
